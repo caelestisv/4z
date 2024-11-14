@@ -1,0 +1,22 @@
+@media(max-width: 980px){
+    .header{
+        flex-direction: column;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        height: 180px !important;
+
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    .news{
+        width: 100%;
+    }
+}
+
