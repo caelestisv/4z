@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 10px;
 }
 .logo{
@@ -29,9 +29,6 @@ img{
     max-width: 180px;
 }
 .conteiner{
-    display: flex;
-}
-.main{
     display: flex;
     flex-direction: column;
 }
@@ -53,18 +50,18 @@ a{
 a:hover{
     cursor: pointer;
 }
-.else{
+.main{
     display: flex;
-    flex-grow: 1;
 }
-.relative{
-    width: 35%;
-    padding: 16px 10px;
-}
+
 .content{
     width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
 .news{
-    width: 50vw;
+    width: 40vw;
     padding-left: 20px;
 }
