@@ -63,6 +63,21 @@ a:hover{
 }
 .content{
     width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin: 10px;
+}
+.item>img:hover{
+    cursor: pointer;
+    border: solid 3px orange;
+}
+.item>p{
+    text-align: center;   
 }
 .news{
     width: 50vw;

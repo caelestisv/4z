@@ -1,0 +1,38 @@
+@media(max-width: 1136px){
+    .header{
+        flex-direction: column;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        height: 180px !important;
+
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    .else{
+        flex-direction: column-reverse;
+    }
+    .relative{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        justify-content: space-around;
+        align-items: flex-end;
+
+    }
+    .item{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news{
+        width: 100%;
+    }
+}
+
